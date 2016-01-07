@@ -2,21 +2,22 @@ body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
   background-image: url(background.jpg);
-  background-size:length;
+  background-repeat: repeat;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
 }
 h1 {
-	color: #CDDC39;text-align: center;	
+	color: #AE39DC;text-align: center;	
 }
 h2 {
 	text-align: center;
 }
+#kitten
 img {
 	size:500px; border-style: solid;
 }
-#cat {
-	border-style: solid;
+.cat {
+	font-style: italic;
 }
