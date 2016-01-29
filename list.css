@@ -1,0 +1,117 @@
+html, body, * {
+  box-sizing: border-box;
+  background-color:##797979;
+}
+
+#container {
+  width: 100%;
+  background-color: white;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#top {
+  background-color: white;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#page {
+  font-size: 16px;
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+@media(min-width: 420px) {
+  #page {
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+  }
+}
+
+h1 {
+  position: relative;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  font-size: 1.5em;
+}
+h2 {
+  position: relative;
+  left: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+@media(min-width: 420px) {
+  h1 {
+    font-size: 2em;
+    padding-left: 40px;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #6b6b6b;
+  background-color: #13879A;
+  font-size: 1.1em;
+  display: block;
+}
+.complete {
+  background-color: green;
+}
+
+span {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+span.fa-check {
+  right: 10px;
+  top: 7px;
+}
+
+span.fa-trash-o {
+  right: 10px;
+  top: 7px;
+}
+
+span.fa-arrow-up {
+  right: 40px;
+  top: 8px;
+}
+
+button {
+  position: relative;
+  left: 60%;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 15px;
+  outline: none;
+  border: none;
+  cursor:pointer;
+}
+
+@media(min-width: 420px) {
+  button {
+    left: 70%;
+  }
+}
